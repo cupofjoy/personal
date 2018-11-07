@@ -4,52 +4,49 @@ export default class About extends Component {
   render() {
     return (
       <Fragment>
-        <div className="ui inverted segment">
-          <h2 className="ui horizontal inverted divider">About Me</h2>
-        </div>
-        <div className="ui segment">
-          <img src="https://foodiefactor.com/wp-content/uploads/2017/07/coffee-camera.jpg" className="ui medium rounded centered image" /><br/>
+        <div className="ui centered segment" style={{paddingTop: '60px', opacity: '0.9', height: '60em', position: 'fixed'}}>
+          <h2 className="ui horizontal divider">About Me</h2>
+          <img src="https://foodiefactor.com/wp-content/uploads/2017/07/coffee-camera.jpg" className="ui big rounded centered image" alt="About Page" /><br/>
           <div className='ui equal width grid'>
             <div className='row'>
               <div className='column'>
-                <div className='ui segment'>
-                  <div role='list' class='ui centered list'>
-                    <a role='listitem' className='item'>
-                      <i className="coffee icon" />
+                <div className='ui center aligned segment'>
+                  <div role='list' class='ui center aligned list'>
+                    <div role='listitem' className='item'>
                       <div className="content">
-                        <div class="description">Coffee Lover</div>
+                        <div class="description">Regularly seen with a coffee cup in her hand</div>
                       </div>
-                    </a>
-                    <a role='listitem' className='item'>
-                      <i className="photo icon" />
+                    </div>
+                    <div role='listitem' className='item'>
                       <div className="content">
                         <div class="description">Always taking photos of everything</div>
                       </div>
-                    </a>
-                    <a role='listitem' className='item'>
-                      <i className="music icon" />
+                    </div>
+                    <div role='listitem' className='item'>
                       <div className="content">
-                        <div class="description">Constantly blasting music and singing out of tune</div>
+                        <div class="description">Constantly blasting music and singing out of tune when no one is looking</div>
                       </div>
-                    </a>
-                    <a role='listitem' className='item'>
-                      <i className="code icon" />
+                    </div>
+                    <div role='listitem' className='item'>
                       <div className="content">
                         <div class="description">Love creating things through programming</div>
                       </div>
-                    </a>
-                    <a role='listitem' className='item'>
-                      <i className="paw icon" />
+                    </div>
+                    <div role='listitem' className='item'>
                       <div className="content">
-                        <div class="description">Believes wholeheartedly that her two dogs are the cutest</div>
+                        <div className="description">Believes wholeheartedly that her two dogs are the cutest</div>
                       </div>
-                    </a>
-                    <a role='listitem' className='item'>
-                      <i className="plane icon" />
+                    </div>
+                    <div role='listitem' className='item'>
                       <div className="content">
                         <div class="description">Aspires to travel the world and experience different cultures</div>
                       </div>
-                    </a>
+                    </div>
+                    <div role='listitem' className='item'>
+                      <div className="content">
+                        <div class="description">Out to make a difference in the world</div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
