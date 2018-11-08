@@ -4,16 +4,11 @@ import '../App.css';
 
 const WelcomePage = (props) => {
   return (
-    <div
-      id="welcomepage"
-      style={{
-        position: 'fixed',
-        height: '500px',
-      }}
-      >
-      {/*
-        <Image src='https://cdn.wallpapersafari.com/37/94/mWE8aq.jpg' fluid />
-        */}
+    <div className="welcome" style={{paddingTop: '150px', height: '60em', opacity: '0.9'}}>
+      <h2 className="ui icon center aligned header">
+        <i area-hidden="true" className="coffee icon" />
+        <div id="welcome" className="content">Welcome!</div>
+      </h2>
     </div>
   )
 }

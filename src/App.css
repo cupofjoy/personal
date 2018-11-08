@@ -1,7 +1,6 @@
 .App {
   text-align: center;
-  background: url('https://cdn.wallpapersafari.com/37/94/mWE8aq.jpg');
-  height: 800px;
+  background-color: 'alicewhite'
 }
 
 .App-logo {
@@ -31,14 +30,17 @@
   width: 20%;
 }
 
-#welcomepage {
-  background-image: url('https://cdn.wallpapersafari.com/37/94/mWE8aq.jpg');
-  position: fixed;
-  height: 100%
-}
-
 #navbar {
   opacity: 0.7
+}
+
+#welcome {
+  font-family: 'Dancing Script', cursive;
+  font-size: 48px;
+}
+
+body {
+  background-color: azure;
 }
 
 @keyframes App-logo-spin {

@@ -8,6 +8,7 @@ import NavBar from './components/NavBar.js'
 import BottomNavBar from './components/BottomNavBar.js'
 import Contact from './components/Contact.js'
 import Blog from './components/Blog.js'
+import Resume from './components/Resume.js'
 
 class App extends Component {
   render() {
@@ -19,6 +20,7 @@ class App extends Component {
           <Route exact path="/about" component={ (props) => <About {...props} /> } />
           <Route exact path="/contact" component={ (props) => <Contact {...props} /> } />
           <Route exact path="/blog" component={ (props) => <Blog {...props} /> } />
+          <Route exact path="/resume" component={ (props) => <Resume {...props} /> } />
         </div><br/><br/>
         <BottomNavBar />
       </div>
