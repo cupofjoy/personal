@@ -4,48 +4,43 @@ export default class About extends Component {
   render() {
     return (
       <Fragment>
-        <div className="ui centered segment" style={{paddingTop: '60px', opacity: '0.9'}}>
+        <div style={{paddingTop: '60px', opacity: '0.9'}}>
           <h2 className="ui horizontal divider">About Me</h2>
-          <img src="https://foodiefactor.com/wp-content/uploads/2017/07/coffee-camera.jpg" className="ui big rounded centered image" alt="About Page" /><br/>
-          <div className='ui equal width grid'>
-            <div className='row'>
+          <div className='ui centered middle aligned two column padded grid'>
+            <div className='stretched row'>
               <div className='column'>
-                <div className='ui center aligned segment'>
-                  <div role='list' className='ui center aligned list'>
-                    <div role='listitem' className='item'>
-                      <div className="content">
-                        <div clasNames="description">Regularly seen with a coffee cup in her hand</div>
-                      </div>
+                <img src="https://foodiefactor.com/wp-content/uploads/2017/07/coffee-camera.jpg" className="ui big rounded centered image" alt="About Page" /><br/>
+              </div>
+              <div className='stretched middle column'>
+                <div role='list' className='ui list'>
+                  <div role='listitem' className='item'>
+                    <div className="content">
+                      <div clasNames="description">Regularly seen with a coffee cup in her hand</div>
                     </div>
-                    <div role='listitem' className='item'>
-                      <div className="content">
-                        <div className="description">Always taking photos of everything</div>
-                      </div>
+                  </div>
+                  <div role='listitem' className='item'>
+                    <div className="content">
+                      <div className="description">Always taking photos of everything</div>
                     </div>
-                    <div role='listitem' className='item'>
-                      <div className="content">
-                        <div className="description">Constantly blasting music and singing out of tune when no one is looking</div>
-                      </div>
+                  </div>
+                  <div role='listitem' className='item'>
+                    <div className="content">
+                      <div className="description">Love creating things through programming</div>
                     </div>
-                    <div role='listitem' className='item'>
-                      <div className="content">
-                        <div className="description">Love creating things through programming</div>
-                      </div>
+                  </div>
+                  <div role='listitem' className='item'>
+                    <div className="content">
+                      <div className="description">Loves cuddling her two dogs</div>
                     </div>
-                    <div role='listitem' className='item'>
-                      <div className="content">
-                        <div className="description">Believes wholeheartedly that her two dogs are the cutest</div>
-                      </div>
+                  </div>
+                  <div role='listitem' className='item'>
+                    <div className="content">
+                      <div class="description">Aspires to travel the world and experience different cultures</div>
                     </div>
-                    <div role='listitem' className='item'>
-                      <div className="content">
-                        <div class="description">Aspires to travel the world and experience different cultures</div>
-                      </div>
-                    </div>
-                    <div role='listitem' className='item'>
-                      <div className="content">
-                        <div className="description">Out to make a difference in the world</div>
-                      </div>
+                  </div>
+                  <div role='listitem' className='item'>
+                    <div className="content">
+                      <div className="description">Out to make a difference in the world</div>
                     </div>
                   </div>
                 </div>
