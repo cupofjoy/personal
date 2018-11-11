@@ -6,7 +6,7 @@ export default class About extends Component {
       <Fragment>
         <div style={{ opacity: '0.9' }}>
           <h2 className="ui horizontal divider">About Me</h2>
-          <div className='ui centered middle aligned two column padded grid'>
+          <div className='ui centered middle aligned three column padded grid'>
             <div className='stretched row'>
               <div className='column'>
                 <img src="https://foodiefactor.com/wp-content/uploads/2017/07/coffee-camera.jpg" className="ui big rounded centered image" alt="About Page" /><br/>
@@ -44,6 +44,17 @@ export default class About extends Component {
                     </div>
                   </div>
                 </div>
+              </div>
+              <div className="column">
+                <a
+                  className="twitter-timeline"
+                  data-lang="en"
+                  data-width="300"
+                  data-height="490"
+                  data-theme="light"
+                  href="https://twitter.com/_eelan?ref=twsrc%5Etwf"
+                  data-chrome="noscrollbar"
+                >Tweets</a>
               </div>
             </div>
           </div>
