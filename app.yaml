@@ -7,5 +7,3 @@ handlers:
   upload: build/index.html
 - url: /
   static_dir: build
-env_variables:
-  SENDGRID_API_KEY: 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
