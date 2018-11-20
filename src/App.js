@@ -27,7 +27,7 @@ class App extends Component {
     return (
       <div className="App">
         <Grid stackable columns={2} divided>
-          <Grid.Column width={3} mobile={2} verticleAlign='middle'><VerticalNavBar /></Grid.Column>
+          <Grid.Column width={3} mobile={1} verticleAlign='middle'><VerticalNavBar /></Grid.Column>
           <Grid.Column width={12} mobile={5} middle stretched>
             <Route exact path="/" component={ (props) => <WelcomePage {...props} /> } />
             <Route exact path="/about" component={ (props) => <About {...props} /> } />
