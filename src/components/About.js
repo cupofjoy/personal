@@ -4,7 +4,7 @@ export default class About extends Component {
   render() {
     return (
       <Fragment>
-        <div style={{paddingTop: '60px', opacity: '0.9'}}>
+        <div style={{paddingTop: '60px', opacity: '0.9', minHeight:'650px'}}>
           <h2 className="ui horizontal divider">About Me</h2>
           <div className='ui centered middle aligned two column padded grid'>
             <div className='stretched row'>

@@ -39,6 +39,11 @@
   font-size: 48px;
 }
 
+#VerticalNavBar {
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+}
+
 body {
   background-color: azure;
 }

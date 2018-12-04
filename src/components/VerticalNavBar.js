@@ -1,28 +1,25 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import { Menu } from 'semantic-ui-react';
+import '../App.css'
 
 import PDF from '../Resume.pdf'
 
 class DropdownMenu extends Component {
-  state = { activeItem: "Home"}
-  handleClick = (event, {name}) => this.setState({ activeItem: name })
-
   render() {
-    const { activeItem } = this.state
     return (
-      <Menu secondary vertical>
-        <Menu.Item name="Home" onClick={this.handleClick}>
-          <Link active={activeItem==='Home'} onClick={this.handleClick} className="ui inverted item" to="/" > Home </Link>
+      <Menu secondary vertical fluid floated id="VerticalNavBar">
+        <Menu.Item name="Home" onClick={this.handleClick} href="/">
+          Home
         </Menu.Item>
-        <Menu.Item name="About">
-          <Link className="ui inverted item" to="/about" > About </Link>
+        <Menu.Item name="About" onClick={this.handleClick} href='/about'>
+          About
         </Menu.Item>
-        <Menu.Item name="Contact">
-          <Link className="ui inverted item" to="/contact" > Contact & Links </Link>
+        <Menu.Item name="Contact" onClick={this.handleClick} href='/contact'>
+          Contact & Links
         </Menu.Item>
-        <Menu.Item name="Resume">
-          <a className="ui inverted item" href={PDF} target="_blank" rel="noopener noreferrer"><i area-hidden="true" />Resume</a>
+        <Menu.Item name="Resume" onClick={this.handleClick} href={PDF} target="_blank" rel="noopener noreferrer">
+          Resume
         </Menu.Item>
       </Menu>
     )

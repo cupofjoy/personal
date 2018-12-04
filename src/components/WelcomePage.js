@@ -4,12 +4,12 @@ import '../App.css';
 
 const WelcomePage = (props) => {
   return (
-    <Header className="welcome" style={{paddingTop: '150px', opacity: '0.9'}}><br/>
-      <h2>
+    <Header className="welcome" style={{paddingTop: '150px', opacity: '0.9', minHeight:'650px'}}><br/>
+      <h3>
         <i area-hidden="true" className="code teal large icon" />
         <i area-hidden="true" className="camera grey large icon" />
         <i area-hidden="true" className="coffee blue large icon" />
-      </h2><br/>
+      </h3><br/>
       <h2 className="ui icon center aligned header">
         <div id="welcome" className="content">Welcome !</div>
       </h2>
