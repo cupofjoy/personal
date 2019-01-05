@@ -23,6 +23,7 @@ export default class Contact extends Component {
             <i className="github icon" />
             <a href='https://www.github.com/cupofjoy' target="_blank" rel="noopener noreferrer" style={{color: 'white'}}>Github</a>
           </button>
+          
         </div><br/><br/><br/><br/><br/>
       </div>
     )
